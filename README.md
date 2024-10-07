@@ -3,7 +3,7 @@ Sistema de reconhecimento facial utilizando OpenCV e Python. Esse sistema é cap
 
 # Instalação
 
-- Instale o Python 
+- Instale o Python  
 - Acesse AppData\Local\Programs\Python\Python36-32\Scripts 
     - Instale a biblioteca numpy (pip install numpy)
     - Acesse: https://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
