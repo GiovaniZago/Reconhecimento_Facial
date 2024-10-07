@@ -5,7 +5,7 @@ reconhecedor = cv2.face.EigenFaceRecognizer_create()
 reconhecedor.read("classificadorEigen.yml")
 largura, altura = 220, 220
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(0) 
 
 while (True):
     conectado, imagem = camera.read()
