@@ -4,7 +4,7 @@ import numpy as np
 classificador = cv2.CascadeClassifier("haarcascade-frontalface-default.xml")
 classificadorOlho = cv2.CascadeClassifier("haarcascade-eye.xml")
 camera = cv2.VideoCapture(0)
-amostra = 1
+amostra = 1 
 numeroAmostra = 150
 id = input('Digite seu identificador: ')
 largura, altura = 220, 220
